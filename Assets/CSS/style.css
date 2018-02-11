@@ -6,11 +6,12 @@
     margin-left: 5px; 
 }
 
+/* Sized the custom About Me photo */
 #selfie{
     width: 195px;
     height: 210x;
 }
-
+/* Sized the custom Portfolio photos */
 .thumbnail{
     width: 230px;
     height: 200px;
@@ -32,19 +33,10 @@ img{
     text-indent: 400px;
 }
   
-p{
-    bottom: 20px;
+@media screen and (max-width: 699px) and (min-width: 520px) {
+    body{
+        background-color: red;
+    }
 }
 
 
-@media screen and (max-width: 768px) {
-                background: red;
-            }
-
-            
-            
-@media only screen and (max-width: 768px) {
-                body {
-                    background-color: lightblue;
-                }
-             
