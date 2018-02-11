@@ -11,6 +11,11 @@
     height: 210x;
 }
 
+.thumbnail{
+    width: 230px;
+    height: 200px;
+}
+
 /* Makes the font on ABOUT ME and CONNECT WITH ME LARGER */
 .panel-heading{
     font-size: 20px;
@@ -27,7 +32,9 @@ img{
     text-indent: 400px;
 }
   
-
+p{
+    bottom: 20px;
+}
 
 
 @media screen and (max-width: 768px) {
