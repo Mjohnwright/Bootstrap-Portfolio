@@ -1,0 +1,43 @@
+ 
+/* Makes the CONNECT WITH ME icons fit inside the box */
+.social{
+    height: 35px;
+    width: 50px;
+    margin-left: 5px; 
+}
+
+#selfie{
+    width: 195px;
+    height: 210x;
+}
+
+/* Makes the font on ABOUT ME and CONNECT WITH ME LARGER */
+.panel-heading{
+    font-size: 20px;
+}
+
+/* makes the image and text sit side by side in Index file */
+img{
+    float: left;
+    padding-right: 15px;
+}
+
+/* Centers the footer */
+.navbar-text{
+    text-indent: 400px;
+}
+  
+
+
+
+@media screen and (max-width: 768px) {
+                background: red;
+            }
+
+            
+            
+@media only screen and (max-width: 768px) {
+                body {
+                    background-color: lightblue;
+                }
+             
