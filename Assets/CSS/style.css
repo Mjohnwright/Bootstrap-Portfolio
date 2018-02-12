@@ -8,7 +8,9 @@ body {
     color: #777;
     background: url("../images/concrete_seamless.png");
   }
-
+.navbar-brand{
+    font-size: 40px;
+}
 
 
 .social{
@@ -58,11 +60,100 @@ img{
 .navbar-text{
     text-indent: 400px;
 }
+
+.footer-copyright{
+    /* float: left; */
+    height:30px;
+    color: #777;
+    font-size: 14px;
+    margin-left: 450px;
+
+}
+
+/* md = 992-1199 pixels ************************************/
   
-@media screen and (max-width: 699px) and (min-width: 520px) {
-    body{
+@media screen and (max-width: 980px){
+    /* body{
         background-color: red;
+    } */
+
+    .panel{
+        float:right;
+        width:220px;
+        margin-right: 45px;
+    }
+    p{
+        float: left;
+        margin-right: 80px;
+    }
+    li{
+        margin-right: 40px;
+    }
+
+    #image{
+        width: 870px;
+        margin-left:20px;
+    }
+    .footer-copyright{
+        margin-left:350px;
+    }
+
+/* sm = 768-991 pixels **************************************/
+
+@media screen and (max-width: 768px){
+    /* body{
+        background-color: blue;
+    } */
+
+    .panel{
+        float:left;
+        width:220px;
+    }
+
+    .input-group, .form-group{
+        width: 557px;
+    }
+    #image{
+        margin-left:20px;
+    }
+
+
+    .footer-copyright{
+        margin-left:220px;
+    }
+
+    li{
+        float:left;
+    }
+    .nav{
+        margin-left:5px;
     }
 }
 
+/* xs= 0-767 pixels *****************************************/
 
+@media screen and (max-width: 640px){
+    /* body{
+        background-color: yellow;
+    } */
+
+    .panel{
+        width:220px;
+        float: left;
+    }
+    .footer-copyright{
+        margin-left:200px;
+    }
+    #image{
+        margin-left:20px;
+    }
+    .input-group, .form-group{
+        width: 557px;
+    }
+    .nav{
+        margin-left:5px;
+    }
+
+}
+/* 
+lg = 1200 pixels and up */
